@@ -1,0 +1,1402 @@
+{
+  "initial_question": "¿Para qué necesita el calefón?",
+  "selection_tools": [
+    {
+  "title": "¿Para qué necesita el calefón?",
+  "category": "Calefacción",
+  "questions": [
+    {
+      "id": "pisos_vivienda",
+      "question": "¿Cuántos pisos tiene tu vivienda?",
+      "options": [
+        {
+  "label": "1 piso",
+  "next": {
+    "id": "ambientes_1piso",
+    "question": "¿Cuántos dormitorios tiene?",
+    "options": [
+      {
+        "label": "1 dormitorio",
+        "details": "Dorm 1 = 10 elementos; Sala comedor = 2 radiadores de 10 elementos",
+        "next": {
+          "id": "ubicacion_caldera_1piso",
+          "question": "¿Dónde se ubicará la caldera?",
+          "options": [
+            {
+              "label": "Cocina",
+              "next": {
+                "id": "resultado_cocina_1dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 18.020\nReserva: Bs 16.218\nPronto: Bs 15.317",
+                    "result": "Caldera: Perla Pro 24 Si\nDormitorio: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Lavandería",
+              "next": {
+                "id": "resultado_lavanderia_1dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 18.020\nReserva: Bs 16.218\nPronto: Bs 15.317",
+                    "result": "Caldera: Perla Pro 24 Si\nDormitorio: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Balcón",
+              "next": {
+                "id": "resultado_balcon_1dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 18.520\nReserva: Bs 16.668\nPronto: Bs 15.742",
+                    "result": "Caldera: Perla Pro 24 S RSi\nnDormitorio: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Terraza",
+              "next": {
+                "id": "resultado_terraza_1dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 18.520\nReserva: Bs 16.668\nPronto: Bs 15.742",
+                    "result": "Caldera: Perla Pro 24 S RSi\nnDormitorio: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "2 dormitorios",
+        "details": "Dorm 1 = 10 elementos; Dorm 2 = 8 elementos; Sala comedor = 2 radiadores de 10 elementos",
+        "next": {
+          "id": "ubicacion_caldera_1piso",
+          "question": "¿Dónde se ubicará la caldera?",
+          "options": [
+            {
+              "label": "Cocina",
+              "next": {
+                "id": "resultado_cocina_2dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 20.130\nReserva: Bs 18.117\nPronto: Bs 17.110",
+                    "result": "Caldera: Perla Pro 24 Si\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Lavandería",
+              "next": {
+                "id": "resultado_lavanderia_2dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 20.130\nReserva: Bs 18.117\nPronto: Bs 17.110",
+                    "result": "Caldera: Perla Pro 24 Si\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Balcón",
+              "next": {
+                "id": "resultado_balcon_2dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 20.630\nReserva: Bs 18.567\nPronto: Bs 17.535",
+                    "result": "Caldera: Perla Pro 24 S RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Terraza",
+              "next": {
+                "id": "resultado_terraza_2dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 20.630\nReserva: Bs 18.567\nPronto: Bs 17.535",
+                    "result": "Caldera: Perla Pro 24 S RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "3 dormitorios",
+        "details": "Dorm 1 = 10 elementos; Dorm 2 = 8 elementos; Dorm 3 = 6 elementos; Sala comedor = 2 radiadores de 10 elementos",
+        "next": {
+          "id": "ubicacion_caldera_1piso",
+          "question": "¿Dónde se ubicará la caldera?",
+          "options": [
+            {
+              "label": "Cocina",
+              "next": {
+                "id": "resultado_cocina_3dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 21.840\nReserva: Bs 19.656\nPronto: Bs 18.564",
+                    "result": "Caldera: Perla Pro 24 Si\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Lavandería",
+              "next": {
+                "id": "resultado_lavanderia_3dorm",
+                "question": "Resultado final",
+                "options": [
+                   {
+                    "label": "Lista: Bs 21.840\nReserva: Bs 19.656\nPronto: Bs 18.564",
+                    "result": "Caldera: Perla Pro 24 Si\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Balcón",
+              "next": {
+                "id": "resultado_balcon_3dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 22.340\nReserva: Bs 20.106\nPronto: Bs 18.989",
+                    "result": "Caldera: Perla Pro 24 S RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Terraza",
+              "next": {
+                "id": "resultado_terraza_3dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 22.340\nReserva: Bs 20.106\nPronto: Bs 18.989",
+                    "result": "Caldera: Perla Pro 24 S RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+},
+
+        {
+  "label": "2 pisos",
+  "next": {
+    "id": "ambientes_2pisos",
+    "question": "¿Cuántos dormitorios tiene tu vivienda?",
+    "options": [
+      {
+        "label": "1 dormitorio",
+        "details": "Dorm 1 = 10 elementos; Sala comedor = 2 radiadores de 10 elementos",
+        "next": {
+          "id": "ubicacion_caldera_2pisos",
+          "question": "¿Dónde se ubicará la caldera?",
+          "options": [
+            {
+              "label": "Cocina",
+              "next": {
+                "id": "resultado_1dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 20.520\nReserva: Bs 18.468\nPronto: Bs 17.442",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Lavandería",
+              "next": {
+                "id": "resultado_1dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 20.520\nReserva: Bs 18.468\nPronto: Bs 17.442",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Balcón",
+              "next": {
+                "id": "resultado_1dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 20.520\nReserva: Bs 18.468\nPronto: Bs 17.442",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Terraza",
+              "next": {
+                "id": "resultado_1dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 20.520\nReserva: Bs 18.468\nPronto: Bs 17.442",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "2 dormitorios",
+        "details": "Dorm 1 = 10 elementos; Dorm 2 = 8 elementos; Sala comedor = 2 radiadores de 10 elementos",
+        "next": {
+          "id": "ubicacion_caldera_2pisos",
+          "question": "¿Dónde se ubicará la caldera?",
+          "options": [
+            {
+              "label": "Cocina",
+              "next": {
+                "id": "resultado_2dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 22.630\nReserva: Bs 20.367\nPronto: Bs 19.234",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Lavandería",
+              "next": {
+                "id": "resultado_2dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 22.630\nReserva: Bs 20.367\nPronto: Bs 19.234",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Balcón",
+              "next": {
+                "id": "resultado_2dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 22.630\nReserva: Bs 20.367\nPronto: Bs 19.234",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Terraza",
+              "next": {
+                "id": "resultado_2dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 22.630\nReserva: Bs 20.367\nPronto: Bs 19.234",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "3 dormitorios",
+        "details": "Dorm 1 = 10 elementos; Dorm 2 = 8 elementos; Dorm 3 = 6 elementos; Sala comedor = 2 radiadores de 10 elementos",
+        "next": {
+          "id": "ubicacion_caldera_2pisos",
+          "question": "¿Dónde se ubicará la caldera?",
+          "options": [
+            {
+              "label": "Cocina",
+              "next": {
+                "id": "resultado_3dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 26.050\nReserva: Bs 23.445\nPronto: Bs 22.142",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nEstudio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Lavandería",
+              "next": {
+                "id": "resultado_3dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 26.050\nReserva: Bs 23.445\nPronto: Bs 22.142",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nEstudio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Balcón",
+              "next": {
+                "id": "resultado_3dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 26.050\nReserva: Bs 23.445\nPronto: Bs 22.142",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nEstudio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Terraza",
+              "next": {
+                "id": "resultado_3dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 26.050\nReserva: Bs 23.445\nPronto: Bs 22.142",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nEstudio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+},
+                      {
+  "label": "3 pisos",
+  "next": {
+    "id": "ambientes_3pisos",
+    "question": "¿Cuántos dormitorios tiene tu vivienda?",
+    "options": [
+      {
+        "label": "1 dormitorio",
+        "details": "Dorm 1 = 10 elementos; Sala comedor = 2 radiadores de 10 elementos",
+        "next": {
+          "id": "ubicacion_caldera_3pisos",
+          "question": "¿Dónde se ubicará la caldera?",
+          "options": [
+            {
+              "label": "Cocina",
+              "next": {
+                "id": "resultado_1dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 20.520\nReserva: Bs 18.468\nPronto: Bs 17.442",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Lavandería",
+              "next": {
+                "id": "resultado_1dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 20.520\nReserva: Bs 18.468\nPronto: Bs 17.442",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Balcón",
+              "next": {
+                "id": "resultado_1dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 20.520\nReserva: Bs 18.468\nPronto: Bs 17.442",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Terraza",
+              "next": {
+                "id": "resultado_1dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 20.520\nReserva: Bs 18.468\nPronto: Bs 17.442",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "2 dormitorios",
+        "details": "Dorm 1 = 10 elementos; Dorm 2 = 8 elementos; Sala comedor = 2 radiadores de 10 elementos",
+        "next": {
+          "id": "ubicacion_caldera_3pisos",
+          "question": "¿Dónde se ubicará la caldera?",
+          "options": [
+            {
+              "label": "Cocina",
+              "next": {
+                "id": "resultado_2dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 22.630\nReserva: Bs 20.367\nPronto: Bs 19.234",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Lavandería",
+              "next": {
+                "id": "resultado_2dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 22.630\nReserva: Bs 20.367\nPronto: Bs 19.234",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Balcón",
+              "next": {
+                "id": "resultado_2dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 22.630\nReserva: Bs 20.367\nPronto: Bs 19.234",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Terraza",
+              "next": {
+                "id": "resultado_2dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 22.630\nReserva: Bs 20.367\nPronto: Bs 19.234",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "3 dormitorios",
+        "details": "Dorm 1 = 10 elementos; Dorm 2 = 8 elementos; Dorm 3 = 6 elementos; Sala comedor = 2 radiadores de 10 elementos",
+        "next": {
+          "id": "ubicacion_caldera_3pisos",
+          "question": "¿Dónde se ubicará la caldera?",
+          "options": [
+            {
+              "label": "Cocina",
+              "next": {
+                "id": "resultado_3dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 26.050\nReserva: Bs 23.445\nPronto: Bs 22.142",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nEstudio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Lavandería",
+              "next": {
+                "id": "resultado_3dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 26.050\nReserva: Bs 23.445\nPronto: Bs 22.142",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nEstudio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Balcón",
+              "next": {
+                "id": "resultado_3dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 26.050\nReserva: Bs 23.445\nPronto: Bs 22.142",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nEstudio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Terraza",
+              "next": {
+                "id": "resultado_3dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 26.050\nReserva: Bs 23.445\nPronto: Bs 22.142",
+                    "result": "Caldera: Perla Pro 28 S RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nEstudio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+      ]
+    }
+  ]
+},
+
+
+    {
+      "title": "¿Para qué necesita el calefón?",
+      "category": "Agua Caliente Sanitaria",
+      "questions": [
+        {
+          "id": "energy_source_calefon",
+          "question": "¿Cual sera la fuente de energía del calefón?",
+          "options": [
+            {
+              "label": "Gas Natural o GLP",
+              "next": {
+                "id": "installation_location_calefon",
+                "question": "¿Donde se instalará el calefón?",
+                "options": [
+                  {
+                    "label": "Cocina",
+                    "next": {
+                      "id": "simultaneous_use_cocina_calefon",
+                      "question": "Número de artefactos con uso simultaneo",
+                      "options": [
+                        {
+                          "label": "1 ducha | Lista: Bs 3.600\nReserva: Bs 3.240\nPronto: Bs 3.060",
+                          "result": "Calefón: Amalfi 11 RSi",
+                          "image_id": "amalfi"
+                        },
+                        {
+                          "label": "2 duchas | Lista: Bs 4.000\nReserva: Bs 3.600\nPronto: Bs 3.400",
+                          "result": "Calefón: Amalfi 14 RSi",
+                          "image_id": "amalfi"
+                        },
+                        {
+                          "label": "2 duchas y 1 lavaplatos | Lista: Bs 4.700\nReserva: Bs 4.230\nPronto: Bs 3.995",
+                          "result": "Calefón: Amalfi 17 RSi",
+                          "image_id": "amalfi"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "label": "Lavandería",
+                    "next": {
+                      "id": "simultaneous_use_lavanderia_calefon",
+                      "question": "Número de artefactos con uso simultaneo",
+                      "options": [
+                        {
+                          "label": "1 ducha | Lista: Bs 3.600\nReserva: Bs 3.240\nPronto: Bs 3.060",
+                          "result": "Calefón: Amalfi 11 RSi",
+                          "image_id": "amalfi"
+                        },
+                        {
+                          "label": "2 duchas | Lista: Bs 4.000\nReserva: Bs 3.600\nPronto: Bs 3.400",
+                          "result": "Calefón: Amalfi 14 RSi",
+                          "image_id": "amalfi"
+                        },
+                        {
+                          "label": "2 duchas y 1 lavaplatos | Lista: Bs 4.700\nReserva: Bs 4.230\nPronto: Bs 3.995",
+                          "result": "Calefón: Amalfi 17 RSi",
+                          "image_id": "amalfi"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "label": "Balcón",
+                    "next": {
+                      "id": "simultaneous_use_balcon_calefon",
+                      "question": "Número de artefactos con uso simultaneo",
+                      "options": [
+                        {
+                          "label": "1 ducha | Lista: Bs 2.800\nReserva: Bs 2.525\nPronto: Bs 2.380",
+                          "result": "Calefón: Primo 11 Si",
+                          "image_id": "amalfi"
+                        },
+                        {
+                          "label": "2 duchas | Lista: Bs 3.200\nReserva: Bs 2.880\nPronto: Bs 2.720",
+                          "result": "Calefón: Primo 14 Si",
+                          "image_id": "amalfi"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "label": "Terraza",
+                    "next": {
+                      "id": "simultaneous_use_terraza_calefon",
+                      "question": "Número de artefactos con uso simultaneo",
+                      "options": [
+                        {
+                          "label": "1 ducha | Lista: Bs 2.800\nReserva: Bs 2.525\nPronto: Bs 2.380",
+                          "result": "Calefón: Primo 11 Si",
+                          "image_id": "amalfi"
+                        },
+                        {
+                          "label": "2 duchas | Lista: Bs 3.200\nReserva: Bs 2.880\nPronto: Bs 2.720",
+                          "result": "Calefón: Primo 14 Si",
+                          "image_id": "amalfi"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Eléctrico",
+              "next": {
+                "id": "electric_use_calefon",
+                "question": "Número de artefactos con uso simultaneo",
+                "options": [
+                  {
+                    "label": "1 ducha |Lista: Bs 3.200\nReserva: Bs 2.880\nPronto: Bs 2.720",
+                    "result": "Calefón: RT09 (9 kW)",
+                    "image_id": "amalfi"
+                  },
+                  {
+                    "label": "1 ducha y 1 lavaplatos |Lista: Bs 2.500\nReserva: Bs 2.250\nPronto: Bs 2.125",
+                    "result": "Calefón: RT11 (11 kW)",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+  "title": "Cómo dimensionar tu caldera mixta y radiador",
+  "category": "Calefacción y agua caliente sanitaria",
+  "questions": [
+    {
+      "id": "pisos_vivienda",
+      "question": "¿Cuántos pisos tiene tu vivienda?",
+      "options": [
+        {
+  "label": "1 piso",
+  "next": {
+    "id": "ambientes_1piso",
+    "question": "¿Cuántos dormitorios tiene?",
+    "options": [
+      {
+        "label": "1 dormitorio",
+        "details": "Dorm 1 = 10 elementos; Sala comedor = 2 radiadores de 10 elementos",
+        "next": {
+          "id": "ubicacion_caldera_1piso",
+          "question": "¿Dónde se ubicará la caldera?",
+          "options": [
+            {
+              "label": "Cocina",
+              "next": {
+                "id": "resultado_cocina_1dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 18.520\nReserva: Bs 16.668\nPronto: Bs 15.742",
+                    "result": "Caldera: Perla Pro 24 RSi\nDormitorio: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Lavandería",
+              "next": {
+                "id": "resultado_lavanderia_1dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 18.520\nReserva: Bs 16.668\nPronto: Bs 15.742",
+                    "result": "Caldera: Perla Pro 24 RSi\nDormitorio: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Balcón",
+              "next": {
+                "id": "resultado_balcon_1dorm",
+                "question": "Resultado final", 
+                "options": [
+                  {
+                    "label": "Lista: Bs 18.220\nReserva: Bs 16.398\nPronto: Bs 15.487",
+                    "result": "Caldera: Perla Pro 24 i metro\nDormitorio: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Terraza",
+              "next": {
+                "id": "resultado_terraza_1dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 18.220\nReserva: Bs 16.398\nPronto: Bs 15.487",
+                    "result": "Caldera: Perla Pro 24 i metro\nDormitorio: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "2 dormitorios",
+        "details": "Dorm 1 = 10 elementos; Dorm 2 = 8 elementos; Sala comedor = 2 radiadores de 10 elementos",
+        "next": {
+          "id": "ubicacion_caldera_1piso",
+          "question": "¿Dónde se ubicará la caldera?",
+          "options": [
+            {
+              "label": "Cocina",
+              "next": {
+                "id": "resultado_cocina_2dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 20,630\nReserva: Bs 18.567\nPronto: Bs 17,536",
+                    "result": "Caldera: Perla Pro 24 RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Lavandería",
+              "next": {
+                "id": "resultado_lavanderia_2dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 20,630\nReserva: Bs 18.567\nPronto: Bs 17,536",
+                    "result": "Caldera: Perla Pro 24 RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Balcón",
+              "next": {
+                "id": "resultado_balcon_2dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 20,330\nReserva: Bs 18.297\nPronto: Bs 17,280",
+                    "result": "Caldera: Perla Pro 24 i metro\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Terraza",
+              "next": {
+                "id": "resultado_terraza_2dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 20,330\nReserva: Bs 18.297\nPronto: Bs 17,280",
+                    "result": "Caldera: Perla Pro 24 i metro\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "3 dormitorios",
+        "details": "Dorm 1 = 10 elementos; Dorm 2 = 8 elementos; Dorm 3 = 6 elementos; Sala comedor = 2 radiadores de 10 elementos",
+        "next": {
+          "id": "ubicacion_caldera_1piso",
+          "question": "¿Dónde se ubicará la caldera?",
+          "options": [
+            {
+              "label": "Cocina",
+              "next": {
+                "id": "resultado_cocina_3dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 22.340\nReserva: Bs 20.106\nPronto: Bs 18.989",
+                    "result": "Caldera: Perla Pro 24 RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Lavandería",
+              "next": {
+                "id": "resultado_lavanderia_3dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 22.340\nReserva: Bs 20.106\nPronto: Bs 18.989",
+                    "result": "Caldera: Perla Pro 24 RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Balcón",
+              "next": {
+                "id": "resultado_balcon_3dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 22.040\nReserva: Bs 19.836\nPronto: Bs 18.734",
+                    "result": "Caldera: Perla Pro 24 i metro\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Terraza",
+              "next": {
+                "id": "resultado_terraza_3dorm",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 22.040\nReserva: Bs 19.836\nPronto: Bs 18.734",
+                    "result": "Caldera: Perla Pro 24 i metro\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+},
+
+        {
+  "label": "2 pisos",
+  "next": {
+    "id": "ambientes_2pisos",
+    "question": "¿Cuántos dormitorios tiene tu vivienda?",
+    "options": [
+      {
+        "label": "1 dormitorio",
+        "details": "Dorm 1 = 10 elementos; Sala comedor = 2 radiadores de 10 elementos",
+        "next": {
+          "id": "ubicacion_caldera_2pisos",
+          "question": "¿Dónde se ubicará la caldera?",
+          "options": [
+            {
+              "label": "Cocina",
+              "next": {
+                "id": "resultado_1dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 21.020\nReserva: Bs 18.918\nPronto: Bs 17.866",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Lavandería",
+              "next": {
+                "id": "resultado_1dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 21.020\nReserva: Bs 18.918\nPronto: Bs 17.866",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Balcón",
+              "next": {
+                "id": "resultado_1dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 21.020\nReserva: Bs 18.918\nPronto: Bs 17.866",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Terraza",
+              "next": {
+                "id": "resultado_1dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 21.020\nReserva: Bs 18.918\nPronto: Bs 17.866",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "2 dormitorios",
+        "details": "Dorm 1 = 10 elementos; Dorm 2 = 8 elementos; Sala comedor = 2 radiadores de 10 elementos",
+        "next": {
+          "id": "ubicacion_caldera_2pisos",
+          "question": "¿Dónde se ubicará la caldera?",
+          "options": [
+            {
+              "label": "Cocina",
+              "next": {
+                "id": "resultado_2dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 23.130\nReserva: Bs 20.817\nPronto: Bs 18.903",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Lavandería",
+              "next": {
+                "id": "resultado_2dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 23.130\nReserva: Bs 20.817\nPronto: Bs 18.903",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Balcón",
+              "next": {
+                "id": "resultado_2dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 23.130\nReserva: Bs 20.817\nPronto: Bs 18.903",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Terraza",
+              "next": {
+                "id": "resultado_2dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 23.130\nReserva: Bs 20.817\nPronto: Bs 18.903",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "3 dormitorios",
+        "details": "Dorm 1 = 10 elementos; Dorm 2 = 8 elementos; Dorm 3 = 6 elementos; Sala comedor = 2 radiadores de 10 elementos",
+        "next": {
+          "id": "ubicacion_caldera_2pisos",
+          "question": "¿Dónde se ubicará la caldera?",
+          "options": [
+            {
+              "label": "Cocina",
+              "next": {
+                "id": "resultado_3dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 26.550\nReserva: Bs 23.895\nPronto: Bs 22.567",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nEstudio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Lavandería",
+              "next": {
+                "id": "resultado_3dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 26.550\nReserva: Bs 23.895\nPronto: Bs 22.567",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nEstudio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Balcón",
+              "next": {
+                "id": "resultado_3dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 26.550\nReserva: Bs 23.895\nPronto: Bs 22.567",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nEstudio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Terraza",
+              "next": {
+                "id": "resultado_3dorm_2pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 26.550\nReserva: Bs 23.895\nPronto: Bs 22.567",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nEstudio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+},
+                      {
+  "label": "3 pisos",
+  "next": {
+    "id": "ambientes_3pisos",
+    "question": "¿Cuántos dormitorios tiene tu vivienda?",
+    "options": [
+      {
+        "label": "1 dormitorio",
+        "details": "Dorm 1 = 10 elementos; Sala comedor = 2 radiadores de 10 elementos",
+        "next": {
+          "id": "ubicacion_caldera_3pisos",
+          "question": "¿Dónde se ubicará la caldera?",
+          "options": [
+            {
+              "label": "Cocina",
+              "next": {
+                "id": "resultado_1dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 21.020\nReserva: Bs 18.918\nPronto: Bs 17.866",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Lavandería",
+              "next": {
+                "id": "resultado_1dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 21.020\nReserva: Bs 18.918\nPronto: Bs 17.866",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Balcón",
+              "next": {
+                "id": "resultado_1dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 21.020\nReserva: Bs 18.918\nPronto: Bs 17.866",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Terraza",
+              "next": {
+                "id": "resultado_1dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 21.020\nReserva: Bs 18.918\nPronto: Bs 17.866",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "2 dormitorios",
+        "details": "Dorm 1 = 10 elementos; Dorm 2 = 8 elementos; Sala comedor = 2 radiadores de 10 elementos",
+        "next": {
+          "id": "ubicacion_caldera_3pisos",
+          "question": "¿Dónde se ubicará la caldera?",
+          "options": [
+            {
+              "label": "Cocina",
+              "next": {
+                "id": "resultado_2dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 23.130\nReserva: Bs 20.817\nPronto: Bs 18.903",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Lavandería",
+              "next": {
+                "id": "resultado_2dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 23.130\nReserva: Bs 20.817\nPronto: Bs 18.903",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Balcón",
+              "next": {
+                "id": "resultado_2dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 23.130\nReserva: Bs 20.817\nPronto: Bs 18.903",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Terraza",
+              "next": {
+                "id": "resultado_2dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 23.130\nReserva: Bs 20.817\nPronto: Bs 18.903",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "3 dormitorios",
+        "details": "Dorm 1 = 10 elementos; Dorm 2 = 8 elementos; Dorm 3 = 6 elementos; Sala comedor = 2 radiadores de 10 elementos",
+        "next": {
+          "id": "ubicacion_caldera_3pisos",
+          "question": "¿Dónde se ubicará la caldera?",
+          "options": [
+            {
+              "label": "Cocina",
+              "next": {
+                "id": "resultado_3dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 26.550\nReserva: Bs 23.895\nPronto: Bs 22.567",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nEstudio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Lavandería",
+              "next": {
+                "id": "resultado_3dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 26.550\nReserva: Bs 23.895\nPronto: Bs 22.567",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nEstudio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Balcón",
+              "next": {
+                "id": "resultado_3dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 26.550\nReserva: Bs 23.895\nPronto: Bs 22.567",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nEstudio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Terraza",
+              "next": {
+                "id": "resultado_3dorm_3pisos",
+                "question": "Resultado final",
+                "options": [
+                  {
+                    "label": "Lista: Bs 26.550\nReserva: Bs 23.895\nPronto: Bs 22.567",
+                    "result": "Caldera: Perla Pro 28 RSi\nDormitorio ppal: Regina 10 elementos\n2do Dormitorio: Regina 8 elementos\n3er Dormitorio: Regina 6 elementos\nEstudio: Regina 6 elementos\nSala comedor: Regina 10 elementos 2/u",
+                    "image_id": "amalfi"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+
+      ]
+    }
+  ]
+}
+  ]
+}
