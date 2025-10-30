@@ -22,11 +22,22 @@ class SimulatorUserFormPageState extends State<SimulatorUserFormPage> {
   final _nameController = TextEditingController();
   final _phoneController = TextEditingController();
   bool _isValid = false;
+  String get name => _nameController.text.trim();
+  String get phone => _phoneController.text.trim();
+  // void _validate() {
+  //   final newIsValid = _nameController.text.trim().isNotEmpty &&
+  //       _phoneController.text.trim().length >= 8;
 
+  //   if (newIsValid != _isValid) {
+  //     setState(() {
+  //       _isValid = newIsValid;
+  //     });
+  //     widget.onValidChange(newIsValid);
+  //   }
+  // }
   void _validate() {
     final newIsValid = _nameController.text.trim().isNotEmpty &&
         _phoneController.text.trim().length >= 8;
-
     if (newIsValid != _isValid) {
       setState(() {
         _isValid = newIsValid;

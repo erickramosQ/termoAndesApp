@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "389042815789",
+    "project_id": "termoandesapp",
+    "storage_bucket": "termoandesapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389042815789:android:ae2964b19e557bd79ec9a4",
+        "android_client_info": {
+          "package_name": "com.example.termoandes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClGP1MzsOM_7L3V3ueJg3LEEaz6oMNUB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:termoandes/shared/theme/app_colors.dart';
@@ -67,6 +68,23 @@ class _SimulatorPageState extends State<SimulatorPage> {
     });
   }
 
+  // void _goBackStep() {
+  //   setState(() {
+  //     if (currentStep == 1) {
+  //       _resetSimulator();
+  //       widget.onBack();
+  //       return;
+  //     }
+  //     currentStep--;
+  //     currentQuestion = _questionsPerStep[currentStep];
+  //     selectedOption = _selectedOptionsMap[currentQuestion];
+  //     if (currentStep == 2) {
+  //       _step2SelectedOption = selectedOption;
+  //     }
+  //     // Reiniciar validación del formulario si volvemos del Step 5
+  //     _isFormValid = false;
+  //   });
+  // }
   void _goBackStep() {
     setState(() {
       if (currentStep == 1) {
@@ -74,12 +92,22 @@ class _SimulatorPageState extends State<SimulatorPage> {
         widget.onBack();
         return;
       }
+
+      // 🔹 Limpiar la selección del paso actual
+      if (currentQuestion != null) {
+        _selectedOptionsMap.remove(currentQuestion);
+      }
+
       currentStep--;
+
+      // Restaurar la pregunta y opción correspondiente al step anterior
       currentQuestion = _questionsPerStep[currentStep];
       selectedOption = _selectedOptionsMap[currentQuestion];
+
       if (currentStep == 2) {
         _step2SelectedOption = selectedOption;
       }
+
       // Reiniciar validación del formulario si volvemos del Step 5
       _isFormValid = false;
     });
@@ -249,9 +277,46 @@ class _SimulatorPageState extends State<SimulatorPage> {
   // }
 
   // 3. Método para gestionar el envío del formulario con la Key
-  void _submitForm() {
-    // Llama directamente al método submitForm() del widget hijo usando la key.
+  // void _submitForm() {
+  //   // Llama directamente al método submitForm() del widget hijo usando la key.
+  //   _formKey.currentState?.submitForm();
+  // }
+  void _submitForm() async {
+    // Llama al submitForm() del formulario
     _formKey.currentState?.submitForm();
+
+    final state = _formKey.currentState;
+    if (state == null || state.name.isEmpty || state.phone.length < 8) return;
+
+    try {
+      await FirebaseFirestore.instance.collection('cotizaciones').add({
+        'nombre': state.name,
+        'telefono': state.phone,
+        'resultado cotización': selectedOption!.result,
+        'respuestas':
+            _selectedOptionsMap.map((q, o) => MapEntry(q.question, o.label)),
+        'fecha de registro': DateTime.now(),
+      });
+    } catch (e) {
+      print('Error guardando cotización: $e');
+    }
+
+    // Navigator.push(
+    //   context,
+    //   MaterialPageRoute(
+    //     builder: (_) => SimulatorFinalResultPage(
+    //       selectedOption: selectedOption!,
+    //       userName: state.name,
+    //       userPhone: state.phone,
+    //       onGoHome: () {
+    //         _resetSimulator();
+    //         widget.onBack();
+    //         Navigator.pop(context);
+    //       },
+    //       allSelections: _selectedOptionsMap,
+    //     ),
+    //   ),
+    // );
   }
 
   // 4. Método para actualizar la validez del formulario
@@ -454,14 +519,26 @@ class _SimulatorPageState extends State<SimulatorPage> {
                     ),
 
                     // Botón SIGUIENTE / FINALIZAR SIMULACIÓN
+                    // TermoAndesButton(
+                    //   text: currentStep == 5
+                    //       ? 'FINALIZAR SIMULACIÓN'
+                    //       : 'SIGUIENTE',
+                    //   // 6. Usar el método _submitForm para el Step 5
+                    //   onTap: currentStep == 5 ? _submitForm : _goNextStep,
+                    //   type: TermoAndesButtonType.primary,
+                    //   // 7. Usar _isFormValid para habilitar/deshabilitar en Step 5
+                    //   isEnabled: currentStep == 5
+                    //       ? _isFormValid
+                    //       : currentStep == 1
+                    //           ? _selectedCategory != null
+                    //           : selectedOption != null,
+                    // ),
                     TermoAndesButton(
                       text: currentStep == 5
                           ? 'FINALIZAR SIMULACIÓN'
                           : 'SIGUIENTE',
-                      // 6. Usar el método _submitForm para el Step 5
                       onTap: currentStep == 5 ? _submitForm : _goNextStep,
                       type: TermoAndesButtonType.primary,
-                      // 7. Usar _isFormValid para habilitar/deshabilitar en Step 5
                       isEnabled: currentStep == 5
                           ? _isFormValid
                           : currentStep == 1
